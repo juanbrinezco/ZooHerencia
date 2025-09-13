@@ -1,9 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Collar collarRojo = new Collar("Rojo", "acero inoxidable");
-        Perro perro = new Perro("Rocky" +
-                "" +
-                "", collarRojo);
+        Perro perro = new Perro("Rocky", collarRojo);
         Gato gato = new Gato("Misu");
 
         Consultorio consultorio1 = new Consultorio(21, "Cra14Sur N31a24");
