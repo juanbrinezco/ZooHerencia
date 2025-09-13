@@ -4,7 +4,7 @@ public class Main {
         Perro perro = new Perro("Rocky", collarRojo);
         Gato gato = new Gato("Misu");
 
-        Consultorio consultorio1 = new Consultorio(21, "Cra14Sur N31a24");
+        Consultorio consultorio1 = new Consultorio(10, "Cra14Sur N31a24");
         Veterinaria vet = new Veterinaria(consultorio1);
 
         perro.sonido();
